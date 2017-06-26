@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
-import { IonicPageModule } from 'ionic-angular';
+import {IonicPage, IonicPageModule} from 'ionic-angular';
 import { FriendsPage } from './friends';
 
+@IonicPage()
 @NgModule({
   declarations: [
     FriendsPage,

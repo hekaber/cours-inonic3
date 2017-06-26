@@ -5,20 +5,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import { AddPage } from '../pages/add/add';
-import { FriendsPage } from '../pages/friends/friends';
-import { AroundPage } from '../pages/around/around';
-import { PlacesPage } from '../pages/places/places';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
-    AddPage,
-    FriendsPage,
-    AroundPage,
-    PlacesPage
   ],
   imports: [
     BrowserModule,
@@ -27,11 +17,6 @@ import { PlacesPage } from '../pages/places/places';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-    AddPage,
-    FriendsPage,
-    AroundPage,
-    PlacesPage
   ],
   providers: [
     StatusBar,

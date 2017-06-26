@@ -5,16 +5,17 @@ import { FriendsPage } from '../friends/friends';
 import { AroundPage } from '../around/around';
 import { AddPage } from '../add/add';
 
+@IonicPage()
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
 
-  placesPg: PlacesPage;
-  friendsPg = FriendsPage;
-  aroundPg = AroundPage;
-  addPg = AddPage;
+  placesPg = 'PlacesPage';
+  friendsPg = 'FriendsPage';
+  aroundPg = 'AroundPage';
+  addPg = 'AddPage';
 
   constructor(public navCtrl: NavController) {
 
